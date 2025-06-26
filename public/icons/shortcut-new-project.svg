@@ -1,0 +1,19 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="96" height="96" rx="20" fill="#A678FF"/>
+  <rect x="8" y="8" width="80" height="80" rx="12" fill="white" fill-opacity="0.1" stroke="white" stroke-width="2"/>
+  
+  <!-- Plus icon -->
+  <line x1="48" y1="28" x2="48" y2="68" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <line x1="28" y1="48" x2="68" y2="48" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Pixel art grid effect -->
+  <rect x="32" y="32" width="4" height="4" fill="white" fill-opacity="0.6"/>
+  <rect x="36" y="32" width="4" height="4" fill="white" fill-opacity="0.4"/>
+  <rect x="56" y="32" width="4" height="4" fill="white" fill-opacity="0.6"/>
+  <rect x="60" y="32" width="4" height="4" fill="white" fill-opacity="0.4"/>
+  
+  <rect x="32" y="60" width="4" height="4" fill="white" fill-opacity="0.6"/>
+  <rect x="36" y="60" width="4" height="4" fill="white" fill-opacity="0.4"/>
+  <rect x="56" y="60" width="4" height="4" fill="white" fill-opacity="0.6"/>
+  <rect x="60" y="60" width="4" height="4" fill="white" fill-opacity="0.4"/>
+</svg>

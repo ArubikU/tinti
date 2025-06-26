@@ -1,0 +1,689 @@
+{
+  "metadata": {
+    "title": "Tinti.art - Collaborative Pixel Art Editor",
+    "description": "Create amazing pixel art with our real-time collaborative editor. Professional tools, layers, animations and more. Free and no registration required!",
+    "keywords": [
+      "pixel art",
+      "editor",
+      "real time",
+      "digital art",
+      "sprites",
+      "animation",
+      "8-bit",
+      "16-bit",
+      "retro",
+      "games",
+      "design",
+      "creativity",
+      "tools",
+      "free",
+      "online"
+    ]
+  },
+  "navigation": {
+    "loading": "Loading your canvas...",
+    "home": "Home",
+    "editor": "Editor",
+    "gallery": "Gallery",
+    "about": "About",
+    "explore": "Explore",
+    "dashboard": "My Projects",
+    "allProjects": "All projects",
+    "folders": "Folders",
+    "projects": "Projects",
+    "recentProjects": "Projects (last 10)",
+    "newFolder": "New folder"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Sign Up",
+    "logout": "Logout",
+    "profile": "Profile",
+    "settings": "Settings",
+    "welcome": "Welcome!",
+    "joinTinti": "Join Tinti",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "usernamePlaceholder": "your_username",
+    "emailPlaceholder": "your@email.com",
+    "passwordPlaceholder": "••••••••",
+    "processing": "Processing...",
+    "createAccount": "Create Account",
+    "noAccount": "Don't have an account? Sign up",
+    "hasAccount": "Already have an account? Sign in"
+  },
+  "project": {
+    "create": "Create Project",
+    "createNew": "Create New Project",
+    "createNewShort": "New Project",
+    "createDescription": "Start a new pixel art project from scratch",
+    "newProject": "New Project",
+    "createWithoutRegister": "Create Without Registration",
+    "tryFree": "Try Free",
+    "import": "Import Project",
+    "importDescription": "Import an existing project from a file",
+    "noDescription": "No description",
+    "settings": "Settings",
+    "moveToFolder": "Move to folder",
+    "deleteProject": "Delete project",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "title": "Project title",
+    "titleRequired": "Project title *",
+    "titlePlaceholder": "My Amazing Pixel Art",
+    "description": "Description",
+    "descriptionOptional": "Description (optional)",
+    "descriptionPlaceholder": "Describe your project...",
+    "demoDescription": "Demo project",
+    "canvasSize": "Canvas Size",
+    "customSize": "Custom",
+    "width": "Width",
+    "height": "Height",
+    "saveInFolder": "Will be saved in:",
+    "folder": "Folder",
+    "ready": "Ready to create?"
+  },
+  "canvas": {
+    "presets": {
+      "small": "Small (16×16)",
+      "medium": "Medium (32×32)",
+      "large": "Large (64×64)",
+      "rectangular1": "Rectangular (32×16)",
+      "rectangular2": "Rectangular (48×32)",
+      "custom": "Custom"
+    }
+  },
+  "common": {
+    "name": "Name",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "open": "Open",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information",
+    "search": "Search",
+    "searchProjects": "Search projects...",
+    "searchFolders": "Search folders...",
+    "pixels": "pixels",
+    "canvasPreview": "Canvas preview",
+    "pageOf": "Page {{page}} of {{total}}"
+  },
+  "landing": {
+    "hero": {
+      "title": "The most complete platform to create pixel art with professional tools",
+      "subtitle": "Try the editor without registration. To save your creations you'll need an account.",
+      "cta": "Create Account",
+      "startNow": "Start Now - Free",
+      "joinThousands": "Join thousands of artists who are already creating amazing pixel art on Tinti.art",
+      "whyChoose": "Why choose Tinti.art?"
+    },
+    "welcome": {
+      "title": "Welcome to Tinti.art!",
+      "subtitle": "Your space to create pixel art like never before 🎨"
+    },
+    "features": {
+      "collaboration": {
+        "title": "Real-Time Collaboration",
+        "description": "Work with your team on the same project. See changes instantly and create together."
+      },
+      "cloud": {
+        "title": "On the Cloud",
+        "description": "Your drawings everywhere you want them, whenever you want them."
+      },
+      "tools": {
+        "title": "Advanced Tools",
+        "description": "Customizable brushes, shape tools, spray, text, gradients and more to unleash your creativity."
+      }
+    },
+    "community": {
+      "title": "Community Creations",
+      "description": "Discover amazing pixel art works created by our community"
+    },
+    "stats": {
+      "activeArtists": "Active Artists",
+      "projectsCreated": "Projects Created",
+      "likesGiven": "Likes Given",
+      "comments": "Comments"
+    },
+    "buttons": {
+      "viewMoreProjects": "View More Projects",
+      "joinThousandsArtists": "Join Thousands of Artists"
+    }
+  },
+  "settings": {
+    "language": "Language",
+    "changeLanguage": "Change language",
+    "displayName": "Display name",
+    "changeDisplayName": "Change display name",
+    "avatarUrl": "Avatar URL",
+    "changeAvatarUrl": "Change avatar URL"
+  },
+  "projectSettings": {
+    "title": "Project Settings",
+    "description": "Configure visibility, details and collaboration for your project",
+    "tabs": {
+      "general": "General",
+      "sharing": "Sharing",
+      "collaboration": "Collaboration"
+    },
+    "general": {
+      "basicInfo": "Basic Information",
+      "projectTitle": "Project title",
+      "titlePlaceholder": "Name of your pixel art",
+      "description": "Description (optional)",
+      "descriptionPlaceholder": "Describe your artwork...",
+      "visibility": "Visibility",
+      "publicProject": "Public Project",
+      "privateProject": "Private Project",
+      "publicDescription": "Visible to everyone, appears in public gallery",
+      "privateDescription": "Only visible to you and collaborators",
+      "publicInfo": "By making your project public:",
+      "publicFeatures": {
+        "gallery": "Will appear in Tinti.art's public gallery",
+        "interactions": "Other users can view, like and comment",
+        "publicUrl": "Will have a public URL you can share",
+        "stats": "Views and statistics will be tracked"
+      },
+      "tags": "Tags",
+      "addTag": "Add tag (e.g: pixel-art, character, game)",
+      "tagsHelp": "tags. Tags help other users find your project.",
+      "publicUrl": "Public URL",
+      "urlAccessible": "This URL will be publicly accessible once you save the changes."
+    },
+    "sharing": {
+      "privateProject": "Private Project",
+      "privateDescription": "To share your project, you must first make it public in the \"General\" tab.",
+      "goToGeneral": "Go to General Settings",
+      "directLink": "Direct Link",
+      "quickShare": "Quick Share",
+      "embedCode": "Embed Code",
+      "copyCode": "Copy Code",
+      "linkCopied": "Link copied!",
+      "linkCopiedDescription": "The project link was copied to clipboard",
+      "codeCopied": "Code copied!",
+      "codeCopiedDescription": "The embed code was copied to clipboard",
+      "copyError": "Error",
+      "copyErrorDescription": "Could not copy",
+      "socialShareText": "Check out my pixel art \"{title}\" on Tinti.art!"
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "activated": "Collaboration Activated",
+      "deactivated": "Collaboration Deactivated",
+      "activatedDescription": "Other users can edit this project with you",
+      "deactivatedDescription": "Only you can edit this project",
+      "activationInfo": "By activating collaboration:",
+      "activationFeatures": {
+        "invite": "You can invite other users to edit the project",
+        "uniqueId": "A unique collaboration ID is generated",
+        "realTime": "Changes sync in real time",
+        "permissions": "You can manage permissions for each collaborator"
+      },
+      "manage": "Manage Collaborators",
+      "inviteEmail": "Collaborator email",
+      "invite": "Invite",
+      "owner": "You (Owner)",
+      "ownerDescription": "Full access",
+      "ownerBadge": "Owner",
+      "loading": "Loading collaborators...",
+      "noCollaborators": "No collaborators yet",
+      "noCollaboratorsDescription": "Invite other users to collaborate in real time",
+      "collaborationId": "Collaboration ID",
+      "idCopied": "ID copied",
+      "idCopiedDescription": "Collaborators can use this ID to join",
+      "addSuccess": "Collaborator added",
+      "addSuccessDescription": "Successfully added",
+      "removeSuccess": "Collaborator removed",
+      "removeSuccessDescription": "Removed",
+      "removeSuccessDescriptionEnd": "from the project",
+      "addError": "Could not add collaborator",
+      "removeError": "Could not remove collaborator",
+      "connectionError": "Connection error"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "saveChanges": "Save Changes",
+      "saving": "Saving...",
+      "updateError": "Error updating project"
+    },
+    "deleteProject": "Delete Project",
+    "deleteConfirmMessage": "This action will permanently delete the project \"{{title}}\" and all its associated data.",
+    "deleteWarning": "This action cannot be undone.",
+    "deleteConfirmLabel": "To confirm, type the project name:",
+    "deleteNameMismatch": "The name doesn't match exactly",
+    "deleteError": "Error deleting project",
+    "deleting": "Deleting...",
+    "projectName": "Project name",
+    "moveProject": "Move project",
+    "selectDestinationFolder": "Select destination folder:",
+    "moving": "Moving...",
+    "move": "Move"
+  },
+  "palette": {
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "doubleClickToEdit": "Double tap to edit"
+  },
+  "folderModal": {
+    "editFolder": "Edit Folder",
+    "newFolder": "New Folder",
+    "name": "Name",
+    "namePlaceholder": "Folder name",
+    "description": "Description (optional)",
+    "descriptionPlaceholder": "Folder description",
+    "color": "Color",
+    "icon": "Icon",
+    "preview": "Preview",
+    "previewPlaceholder": "Folder name",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "save": "Save",
+    "create": "Create",
+    "colors": {
+      "blue": "Blue",
+      "red": "Red",
+      "green": "Green",
+      "yellow": "Yellow",
+      "purple": "Purple",
+      "pink": "Pink",
+      "cyan": "Cyan",
+      "lime": "Lime",
+      "orange": "Orange",
+      "indigo": "Indigo"
+    },
+    "icons": {
+      "folder": "Folder",
+      "star": "Star",
+      "heart": "Heart",
+      "briefcase": "Work",
+      "book": "Book",
+      "image": "Image",
+      "music": "Music",
+      "video": "Video",
+      "code": "Code",
+      "settings": "Settings",
+      "archive": "Archive"
+    }
+  },
+  "folderTree": {
+    "newFolder": "New folder",
+    "newFolderIn": "New folder in:",
+    "folder": "folder",
+    "createIn": "Create in:",
+    "enterName": "e.g: folder or folder/subfolder",
+    "create": "Create",
+    "cancel": "Cancel"
+  },
+  "share": {
+    "shareProject": "Share Project",
+    "shareDescription": "Share \"{{title}}\" with the world",
+    "linkCopied": "Link copied!",
+    "linkCopiedDescription": "The link was copied to clipboard",
+    "copyError": "Could not copy link",
+    "socialMessage": "Check out my pixel art \"{{title}}\" on Tinti.art!",
+    "qrCode": "QR Code",
+    "comingSoon": "Coming soon",
+    "copy": "Copy",
+    "shareOnSocial": "Share on social media"
+  },
+  "explore": {
+    "title": "Explore Projects",
+    "description": "Discover amazing creations from the community",
+    "goBack": "Go Back",
+    "offlineMode": "Offline Mode",
+    "popular": "Popular",
+    "recent": "Recent",
+    "mostLiked": "Most Liked",
+    "noProjects": "No projects available",
+    "beFirst": "Be the first to share your art with the community",
+    "locale": "en-US"
+  },
+  "import": {
+    "tinFileError": "Please select a valid .tin file",
+    "tinImported": "File imported!",
+    "tinImportedDescription": "Project \"{{title}}\" was imported successfully",
+    "importError": "Import error",
+    "tinImportError": "Could not import .tin file",
+    "imageFileError": "Please select a valid image file",
+    "imageImported": "Image imported!",
+    "imageImportedDescription": "Project \"{{title}}\" was created from image",
+    "imageImportError": "Could not import image",
+    "saveInFolder": "Will be saved in",
+    "folder": "Folder",
+    "tinFile": ".tin File",
+    "image": "Image",
+    "selectTinFile": "Select .tin file",
+    "tinFileDescription": "Import a previously saved project in .tin format with all its layers, frames and settings.",
+    "selectImage": "Select image",
+    "imageDescription": "Convert a PNG, JPG, GIF or other format image into a pixel art project.",
+    "importing": "Importing..."
+  },
+  "reports": {
+    "button": "Report",
+    "modal": {
+      "title": "Report Project",
+      "description": "Is there something inappropriate about the project \"{{projectTitle}}\"? Report this content to our moderation team."
+    },
+    "form": {
+      "type": "Report type",
+      "selectType": "Select a type",
+      "description": "Description (optional)",
+      "descriptionPlaceholder": "Describe the issue in more detail..."
+    },
+    "types": {
+      "inappropriate": "Inappropriate content",
+      "spam": "Spam or advertising",
+      "duplicate": "Duplicate content",
+      "other": "Other issue"
+    },
+    "submitting": "Submitting...",
+    "submit": "Submit report",
+    "success": {
+      "title": "Report submitted",
+      "description": "Thank you for your report. Our team will review it soon."
+    },
+    "error": {
+      "selectType": "Please select a report type",
+      "submit": "Error submitting report",
+      "tryAgain": "Please try again later"
+    }
+  },
+  "editor": {
+    "tools": {
+      "pencil": "Pencil",
+      "eraser": "Eraser",
+      "bucket": "Bucket Fill",
+      "eyedropper": "Eyedropper",
+      "line": "Line",
+      "rectangle": "Rectangle",
+      "circle": "Circle",
+      "ellipse": "Ellipse",
+      "spray": "Spray",
+      "gradient": "Gradient",
+      "select": "Select",
+      "border-select": "Border Select",
+      "magic-wand": "Magic Wand",
+      "move": "Move",
+      "rotate": "Rotate",
+      "scale": "Scale",
+      "text": "Text",
+      "noise": "Noise",
+      "mirror": "Mirror",
+      "color-replace": "Color Replace"
+    },
+    "categories": {
+      "basic": "Basic",
+      "shapes": "Shapes",
+      "artistic": "Artistic",
+      "selection": "Selection",
+      "advanced": "Advanced"
+    },
+    "panels": {
+      "tools": "Tools",
+      "colors": "Colors",
+      "colorPalette": "Color Palette",
+      "layers": "Layers",
+      "frames": "Frames",
+      "animation": "Animation",
+      "settings": "Settings",
+      "selection": "Selection",
+      "paletteEditor": "Palette Editor",
+      "canvasSettings": "Canvas Settings"
+    },
+    "panelContent": {
+      "selection": {
+        "pixelsSelected": "pixels selected",
+        "pixelsInClipboard": "pixels in clipboard",
+        "size": "Size: {{width}} × {{height}}",
+        "tolerance": "Tolerance",
+        "showPreview": "Show",
+        "hidePreview": "Hide",
+        "selectionPreview": "Selection Preview"
+      },
+      "colors": {
+        "currentColor": "Current Color",
+        "colorPalette": "Color Palette",
+        "showMore": "Show more",
+        "showLess": "Show less",
+        "save": "Save",
+        "cancel": "Cancel",
+        "editColor": "Edit color"
+      },
+      "layers": {
+        "layers": "Layers",
+        "newLayer": "New",
+        "onionSkin": "Onion Skin",
+        "on": "On",
+        "off": "Off",
+        "opacity": "Opacity: {{percentage}}%",
+        "opacityLabel": "Opacity",
+        "pixelsCount": "{{count}} pixels"
+      },
+      "frames": {
+        "framesAndDuration": "{{count}} frames • {{duration}}ms",
+        "export": "Export",
+        "fps": "FPS: {{value}}",
+        "addFrame": "Add Frame",
+        "duration": "Duration:"
+      },
+      "canvasSettings": {
+        "title": "Canvas Settings",
+        "currentSize": "Current size",
+        "pixelSize": "{{width}} × {{height}} pixels",
+        "presets": "Preset sizes",
+        "customSize": "Custom size",
+        "width": "Width",
+        "height": "Height",
+        "maintainAspect": "Maintain aspect ratio",
+        "resizeMethod": "Resize method",
+        "pad": "Pad",
+        "crop": "Crop",
+        "stretch": "Stretch",
+        "padDescription": "Add transparent pixels",
+        "cropDescription": "Cut excess content",
+        "stretchDescription": "Scale existing content",
+        "applyChanges": "Apply Changes",
+        "reset": "Reset",
+        "grid": "Grid"
+      },
+      "colorPalette": {
+        "currentColor": "Current Color",
+        "currentPalette": "Current Palette",
+        "doubleTapToEdit": "Double tap to edit",
+        "generatePalette": "Generate Palette",
+        "extractFromProject": "Extract from Project",
+        "canvas": "Canvas",
+        "layers": "Layers",
+        "frames": "Frames",
+        "automaticPalettes": "Automatic Palettes",
+        "monochromatic": "Monochromatic",
+        "analogous": "Analogous",
+        "complementary": "Complementary",
+        "triadic": "Triadic",
+        "random": "Random",
+        "paletteSize": "Palette Size",
+        "adjustPalette": "Adjust Palette",
+        "hue": "Hue",
+        "saturation": "Saturation",
+        "lightness": "Lightness",
+        "apply": "Apply",
+        "reset": "Reset"
+      }
+    },
+    "settings": {
+      "shapeSettings": "Shape Settings",
+      "gradientSettings": "Gradient Settings",
+      "textSettings": "Text Settings",
+      "spraySettings": "Spray Settings",
+      "mirrorSettings": "Mirror Settings",
+      "brushSettings": "Brush Settings",
+      "noiseSettings": "Noise Settings",
+      "bucketSettings": "Bucket Fill Settings",
+      "rotationSettings": "Rotation Settings",
+      "scaleSettings": "Scale Settings",
+      "moveSettings": "Move Settings",
+      "colorReplaceSettings": "Color Replace",
+      "outline": "Outline",
+      "filled": "Filled",
+      "strokeWidth": "Stroke Width",
+      "opacity": "Opacity",
+      "startColor": "Start Color",
+      "endColor": "End Color",
+      "gradientType": "Gradient Type",
+      "linear": "Linear",
+      "radial": "Radial",
+      "text": "Text",
+      "textPlaceholder": "Type your text...",
+      "fontSize": "Font Size",
+      "density": "Density",
+      "radius": "Radius",
+      "symmetryAxis": "Symmetry Axis",
+      "size": "Size",
+      "operationMode": "Operation Mode",
+      "apply": "Apply",
+      "applyReplacement": "Apply Replacement"
+    },
+    "actions": {
+      "undo": "Undo",
+      "redo": "Redo",
+      "save": "Save",
+      "back": "Back",
+      "showGrid": "Show Grid",
+      "hideGrid": "Hide Grid",
+      "showSelectionPreview": "Selection Preview",
+      "openPaletteEditor": "Open Palette Editor",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "resetZoom": "Reset Zoom",
+      "toggleOnionSkin": "Onion Skin",
+      "onionSkinOpacity": "Onion Skin Opacity",
+      "magicWandTolerance": "Magic Wand Tolerance",
+      "exportAnimation": "Export Animation"
+    },
+    "instructions": {
+      "rotationInstructions": "• First select pixels with the selection tool\n• Click and drag to rotate around the center\n• Rotation is applied in real time",
+      "scaleInstructions": "• First select pixels with the selection tool\n• Click near the center and drag outward to enlarge\n• Drag inward to reduce\n• Scale is applied from the center of the selection",
+      "moveInstructions": "• First select pixels with the selection tool\n• Click and drag to move the selection\n• Pixels move in real time",
+      "paletteReplaceInstructions": "• Select colors from the current palette\n• Choose new replacement colors\n• Will be applied automatically to the entire image"
+    },
+    "loading": "Loading editor...",
+    "onlineUsers": "Online Users",
+    "collaborating": "Collaborating",
+    "pixels": "pixels",
+    "layers": {
+      "layer": "Layer",
+      "newLayer": "New Layer",
+      "deleteLayer": "Delete Layer",
+      "duplicateLayer": "Duplicate Layer",
+      "toggleVisibility": "Toggle Visibility",
+      "opacity": "Opacity",
+      "rename": "Rename"
+    },
+    "frames": {
+      "frame": "Frame",
+      "newFrame": "New Frame",
+      "deleteFrame": "Delete Frame",
+      "duplicateFrame": "Duplicate Frame",
+      "playAnimation": "Play Animation",
+      "stopAnimation": "Stop Animation",
+      "fps": "FPS",
+      "duration": "Duration"
+    },
+    "palette": {
+      "addColor": "Add Color",
+      "removeColor": "Remove Color",
+      "extractFromCanvas": "Extract from Canvas",
+      "extractFromLayers": "Extract from Layers",
+      "extractFromFrames": "Extract from Frames",
+      "randomColor": "Random Color"
+    }
+  },
+  "admin": {
+    "title": "Administration Panel",
+    "panel": {
+      "title": "Report Moderation"
+    },
+    "auth": {
+      "title": "Administrative Access",
+      "description": "Enter administrator credentials to access the moderation panel",
+      "key": "Admin key",
+      "secret": "Admin secret",
+      "keyPlaceholder": "Enter admin key",
+      "secretPlaceholder": "Enter admin secret",
+      "login": "Access",
+      "logout": "Sign out",
+      "authenticating": "Authenticating...",
+      "success": "Access granted",
+      "welcome": "Welcome to the administration panel",
+      "error": "Authentication error",
+      "invalidCredentials": "Invalid credentials"
+    },
+    "filters": {
+      "title": "Filters",
+      "status": "Status",
+      "type": "Type",
+      "all": "All"
+    },
+    "status": {
+      "pending": "Pending",
+      "reviewed": "Reviewed",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "reports": {
+      "title": "Reports"
+    },
+    "table": {
+      "project": "Project",
+      "type": "Type",
+      "status": "Status",
+      "reporter": "Reported by",
+      "date": "Date",
+      "actions": "Actions"
+    },
+    "actions": {
+      "review": "Review",
+      "deleteProject": "Delete project",
+      "dismiss": "Dismiss",
+      "resolve": "Resolve",
+      "confirmDelete": "Confirm deletion"
+    },
+    "dialog": {
+      "review": {
+        "title": "Review Report"
+      },
+      "deleteProject": {
+        "title": "Delete Project"
+      },
+      "project": "Project",
+      "type": "Type",
+      "reporter": "Reported by",
+      "description": "Description",
+      "notes": "Administrative notes",
+      "notesPlaceholder": "Add notes about your decision..."
+    },
+    "success": {
+      "reportUpdated": "Report updated",
+      "projectDeleted": "Project deleted",
+      "reportResolved": "Report has been resolved"
+    },
+    "error": {
+      "fetchReports": "Error loading reports",
+      "updateReport": "Error updating report"
+    }
+  }
+}

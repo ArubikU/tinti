@@ -1,0 +1,183 @@
+{
+  "name": "Tinti.art - Editor de Pixel Art Colaborativo",
+  "short_name": "Tinti.art",
+  "description": "Crea pixel art increíble con nuestro editor colaborativo en tiempo real. Herramientas profesionales, capas, animaciones y más.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#A678FF",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "es",
+  "categories": ["design", "graphics", "productivity", "entertainment"],
+  "screenshots": [
+    {
+      "src": "/icons/tinti-text.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Editor principal de Tinti.art"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "density": "1.0"
+    },
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": "1.5"
+    },
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0"
+    },
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0"
+    },
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/tinti-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nuevo Proyecto",
+      "short_name": "Nuevo",
+      "description": "Crear un nuevo proyecto de pixel art",
+      "url": "/?action=new",
+      "icons": [
+        {
+          "src": "/icons/shortcut-new-project.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Explorar Galería",
+      "short_name": "Explorar",
+      "description": "Explorar proyectos de la comunidad",
+      "url": "/?view=explore",
+      "icons": [
+        {
+          "src": "/icons/shortcut-explore.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Mis Proyectos",
+      "short_name": "Proyectos",
+      "description": "Ver mis proyectos guardados",
+      "url": "/?view=dashboard",
+      "icons": [
+        {
+          "src": "/icons/shortcut-projects.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Abrir Imagen",
+      "short_name": "Imagen",
+      "description": "Abrir una imagen y convertirla a pixel art",
+      "url": "/?action=import-image",
+      "icons": [
+        {
+          "src": "/icons/shortcut-image.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Abrir Archivo .tin",
+      "short_name": "Archivo",
+      "description": "Abrir un archivo .tin guardado",
+      "url": "/?action=import-tin",
+      "icons": [
+        {
+          "src": "/icons/shortcut-tin.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "application/octet-stream": [".tin"]
+      },
+      "icons": [
+        {
+          "src": "/icons/shortcut-tin.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ],
+      "launch_type": "single-client"
+    },
+    {
+      "action": "/",
+      "accept": {
+        "image/*": [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".webp"]
+      },
+      "icons": [
+        {
+          "src": "/icons/shortcut-image.svg",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ],
+      "launch_type": "single-client"
+    }
+  ],
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "handle_links": "preferred",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  }
+}

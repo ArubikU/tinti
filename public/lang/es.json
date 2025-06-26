@@ -1,0 +1,690 @@
+{
+  "metadata": {
+    "title": "Tinti.art - Editor de Pixel Art Colaborativo",
+    "description": "Crea pixel art increíble con nuestro editor colaborativo en tiempo real. Herramientas profesionales, capas, animaciones y más. ¡Gratis y sin registro!",
+    "keywords": [
+      "pixel art",
+      "editor",
+      "colaborativo",
+      "tiempo real",
+      "arte digital",
+      "sprites",
+      "animación",
+      "8-bit",
+      "16-bit",
+      "retro",
+      "juegos",
+      "diseño",
+      "creatividad",
+      "herramientas",
+      "gratis",
+      "online"
+    ]
+  },
+  "navigation": {
+    "loading": "Cargando tu lienzo...",
+    "home": "Inicio",
+    "editor": "Editor",
+    "gallery": "Galería",
+    "about": "Acerca de",
+    "explore": "Explorar",
+    "dashboard": "Mis Proyectos",
+    "allProjects": "Todos los proyectos",
+    "folders": "Carpetas",
+    "projects": "Proyectos",
+    "recentProjects": "Proyectos (últimos 10)",
+    "newFolder": "Nueva carpeta"
+  },
+  "auth": {
+    "login": "Iniciar Sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar Sesión",
+    "profile": "Perfil",
+    "settings": "Configuración",
+    "welcome": "¡Bienvenido!",
+    "joinTinti": "Únete a Tinti",
+    "username": "Usuario",
+    "email": "Email",
+    "password": "Contraseña",
+    "usernamePlaceholder": "tu_usuario",
+    "emailPlaceholder": "tu@email.com",
+    "passwordPlaceholder": "••••••••",
+    "processing": "Procesando...",
+    "createAccount": "Crear Cuenta",
+    "noAccount": "¿No tienes cuenta? Regístrate",
+    "hasAccount": "¿Ya tienes cuenta? Inicia sesión"
+  },
+  "project": {
+    "create": "Crear Proyecto",
+    "createNew": "Crear Nuevo Proyecto",
+    "createNewShort": "Nuevo Proyecto",
+    "createDescription": "Comienza un nuevo proyecto de pixel art desde cero",
+    "newProject": "Nuevo Proyecto",
+    "createWithoutRegister": "Crear Sin Registro",
+    "tryFree": "Probar Gratis",
+    "import": "Importar Proyecto",
+    "importDescription": "Importa un proyecto existente desde un archivo",
+    "noDescription": "Sin descripción",
+    "settings": "Configuración",
+    "moveToFolder": "Mover a carpeta",
+    "deleteProject": "Eliminar proyecto",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "title": "Título del proyecto",
+    "titleRequired": "Título del proyecto *",
+    "titlePlaceholder": "Mi Pixel Art Increíble",
+    "description": "Descripción",
+    "descriptionOptional": "Descripción (opcional)",
+    "descriptionPlaceholder": "Describe tu proyecto...",
+    "demoDescription": "Proyecto de demostración",
+    "canvasSize": "Tamaño del Canvas",
+    "customSize": "Personalizado",
+    "width": "Ancho",
+    "height": "Alto",
+    "saveInFolder": "Se guardará en:",
+    "folder": "Carpeta",
+    "ready": "¿Listo para crear?"
+  },
+  "canvas": {
+    "presets": {
+      "small": "Pequeño (16×16)",
+      "medium": "Mediano (32×32)",
+      "large": "Grande (64×64)",
+      "rectangular1": "Rectangular (32×16)",
+      "rectangular2": "Rectangular (48×32)",
+      "custom": "Personalizado"
+    }
+  },
+  "common": {
+    "name": "Nombre",
+    "ok": "Aceptar",
+    "yes": "Sí",
+    "no": "No",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "finish": "Finalizar",
+    "close": "Cerrar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "open": "Abrir",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "warning": "Advertencia",
+    "info": "Información",
+    "search": "Buscar",
+    "searchProjects": "Buscar proyectos...",
+    "searchFolders": "Buscar carpetas...",
+    "pixels": "píxeles",
+    "canvasPreview": "Vista previa del canvas",
+    "pageOf": "Página {{page}} de {{total}}"
+  },
+  "landing": {
+    "hero": {
+      "title": "La plataforma más completa para crear pixel art con herramientas profesionales",
+      "subtitle": "Prueba el editor sin registro. Para guardar tus creaciones necesitarás una cuenta.",
+      "cta": "Crear Cuenta",
+      "startNow": "Empezar Ahora - Gratis",
+      "joinThousands": "Únete a miles de artistas que ya están creando pixel art increíble en Tinti.art",
+      "whyChoose": "¿Por qué elegir Tinti.art?"
+    },
+    "welcome": {
+      "title": "¡Bienvenido a Tinti.art!",
+      "subtitle": "Tu espacio para crear pixel art como nunca antes 🎨"
+    },
+    "features": {
+      "collaboration": {
+        "title": "Colaboración en Tiempo Real",
+        "description": "Trabaja con tu equipo en el mismo proyecto. Ve los cambios instantáneamente y crea juntos."
+      },
+      "cloud": {
+        "title": "En la Nube",
+        "description": "Tus dibujos en todo lugar donde quieras cuando quieras."
+      },
+      "tools": {
+        "title": "Herramientas Avanzadas",
+        "description": "Pinceles customizables, herramientas de forma, spray, texto, degradados y más para liberar tu creatividad."
+      }
+    },
+    "community": {
+      "title": "Creaciones de la Comunidad",
+      "description": "Descubre increíbles obras de pixel art creadas por nuestra comunidad"
+    },
+    "stats": {
+      "activeArtists": "Artistas Activos",
+      "projectsCreated": "Proyectos Creados",
+      "likesGiven": "Likes Dados",
+      "comments": "Comentarios"
+    },
+    "buttons": {
+      "viewMoreProjects": "Ver Más Proyectos",
+      "joinThousandsArtists": "Únete a Miles de Artistas"
+    }
+  },
+  "settings": {
+    "language": "Idioma",
+    "changeLanguage": "Cambiar idioma",
+    "displayName": "Nombre de usuario",
+    "changeDisplayName": "Cambiar nombre de usuario",
+    "avatarUrl": "URL del avatar",
+    "changeAvatarUrl": "Cambiar URL del avatar"
+  },
+  "projectSettings": {
+    "title": "Configuración del Proyecto",
+    "description": "Configura la visibilidad, detalles y colaboración de tu proyecto",
+    "tabs": {
+      "general": "General",
+      "sharing": "Compartir",
+      "collaboration": "Colaboración"
+    },
+    "general": {
+      "basicInfo": "Información Básica",
+      "projectTitle": "Título del proyecto",
+      "titlePlaceholder": "Nombre de tu pixel art",
+      "description": "Descripción (opcional)",
+      "descriptionPlaceholder": "Describe tu obra de arte...",
+      "visibility": "Visibilidad",
+      "publicProject": "Proyecto Público",
+      "privateProject": "Proyecto Privado",
+      "publicDescription": "Visible para todos, aparece en la galería pública",
+      "privateDescription": "Solo visible para ti y colaboradores",
+      "publicInfo": "Al hacer público tu proyecto:",
+      "publicFeatures": {
+        "gallery": "Aparecerá en la galería pública de Tinti.art",
+        "interactions": "Otros usuarios podrán verlo, dar like y comentar",
+        "publicUrl": "Tendrá una URL pública que puedes compartir",
+        "stats": "Se contabilizarán las vistas y estadísticas"
+      },
+      "tags": "Tags (Etiquetas)",
+      "addTag": "Agregar tag (ej: pixel-art, character, game)",
+      "tagsHelp": "tags. Los tags ayudan a otros usuarios a encontrar tu proyecto.",
+      "publicUrl": "URL Pública",
+      "urlAccessible": "Esta URL será accesible públicamente una vez que guardes los cambios."
+    },
+    "sharing": {
+      "privateProject": "Proyecto Privado",
+      "privateDescription": "Para compartir tu proyecto, primero debes hacerlo público en la pestaña \"General\".",
+      "goToGeneral": "Ir a Configuración General",
+      "directLink": "Enlace Directo",
+      "quickShare": "Compartir Rápido",
+      "embedCode": "Código de Inserción",
+      "copyCode": "Copiar Código",
+      "linkCopied": "¡Enlace copiado!",
+      "linkCopiedDescription": "El enlace del proyecto se copió al portapapeles",
+      "codeCopied": "¡Código copiado!",
+      "codeCopiedDescription": "El código de inserción se copió al portapapeles",
+      "copyError": "Error",
+      "copyErrorDescription": "No se pudo copiar",
+      "socialShareText": "¡Mira mi pixel art \"{title}\" en Tinti.art!"
+    },
+    "collaboration": {
+      "title": "Colaboración",
+      "activated": "Colaboración Activada",
+      "deactivated": "Colaboración Desactivada",
+      "activatedDescription": "Otros usuarios pueden editar este proyecto contigo",
+      "deactivatedDescription": "Solo tú puedes editar este proyecto",
+      "activationInfo": "Al activar la colaboración:",
+      "activationFeatures": {
+        "invite": "Puedes invitar otros usuarios a editar el proyecto",
+        "uniqueId": "Se genera un ID de colaboración único",
+        "realTime": "Los cambios se sincronizan en tiempo real",
+        "permissions": "Puedes gestionar permisos de cada colaborador"
+      },
+      "manage": "Gestionar Colaboradores",
+      "inviteEmail": "Correo del colaborador",
+      "invite": "Invitar",
+      "owner": "Tú (Propietario)",
+      "ownerDescription": "Acceso completo",
+      "ownerBadge": "Propietario",
+      "loading": "Cargando colaboradores...",
+      "noCollaborators": "No hay colaboradores aún",
+      "noCollaboratorsDescription": "Invita a otros usuarios para colaborar en tiempo real",
+      "collaborationId": "ID de Colaboración",
+      "idCopied": "ID copiado",
+      "idCopiedDescription": "Los colaboradores pueden usar este ID para unirse",
+      "addSuccess": "Colaborador agregado",
+      "addSuccessDescription": "Se agregó exitosamente a",
+      "removeSuccess": "Colaborador eliminado", 
+      "removeSuccessDescription": "Se eliminó a",
+      "removeSuccessDescriptionEnd": "del proyecto",
+      "addError": "No se pudo agregar el colaborador",
+      "removeError": "No se pudo eliminar el colaborador",
+      "connectionError": "Error de conexión"
+    },
+    "actions": {
+      "cancel": "Cancelar",
+      "saveChanges": "Guardar Cambios",
+      "saving": "Guardando...",
+      "updateError": "Error al actualizar el proyecto"
+    },
+    "deleteProject": "Eliminar Proyecto",
+    "deleteConfirmMessage": "Esta acción eliminará permanentemente el proyecto \"{{title}}\" y todos sus datos asociados.",
+    "deleteWarning": "Esta acción no se puede deshacer.",
+    "deleteConfirmLabel": "Para confirmar, escribe el nombre del proyecto:",
+    "deleteNameMismatch": "El nombre no coincide exactamente",
+    "deleteError": "Error al eliminar el proyecto",
+    "deleting": "Eliminando...",
+    "projectName": "Nombre del proyecto",
+    "moveProject": "Mover proyecto",
+    "selectDestinationFolder": "Seleccionar carpeta de destino:",
+    "moving": "Moviendo...",
+    "move": "Mover"
+  },
+  "palette": {
+    "edit": "Editar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "doubleClickToEdit": "Toca dos veces para editar"
+  },
+  "folderModal": {
+    "editFolder": "Editar Carpeta",
+    "newFolder": "Nueva Carpeta",
+    "name": "Nombre",
+    "namePlaceholder": "Nombre de la carpeta",
+    "description": "Descripción (opcional)",
+    "descriptionPlaceholder": "Descripción de la carpeta",
+    "color": "Color",
+    "icon": "Icono",
+    "preview": "Vista previa",
+    "previewPlaceholder": "Nombre de carpeta",
+    "cancel": "Cancelar",
+    "saving": "Guardando...",
+    "save": "Guardar",
+    "create": "Crear",
+    "colors": {
+      "blue": "Azul",
+      "red": "Rojo",
+      "green": "Verde",
+      "yellow": "Amarillo",
+      "purple": "Púrpura",
+      "pink": "Rosa",
+      "cyan": "Cian",
+      "lime": "Lima",
+      "orange": "Naranja",
+      "indigo": "Índigo"
+    },
+    "icons": {
+      "folder": "Carpeta",
+      "star": "Estrella",
+      "heart": "Corazón",
+      "briefcase": "Trabajo",
+      "book": "Libro",
+      "image": "Imagen",
+      "music": "Música",
+      "video": "Video",
+      "code": "Código",
+      "settings": "Configuración",
+      "archive": "Archivo"
+    }
+  },
+  "folderTree": {
+    "newFolder": "Nueva carpeta",
+    "newFolderIn": "Nueva carpeta en:",
+    "folder": "carpeta",
+    "createIn": "Crear en:",
+    "enterName": "Ej: carpeta o carpeta/subcarpeta",
+    "create": "Crear",
+    "cancel": "Cancelar"
+  },
+  "share": {
+    "shareProject": "Compartir Proyecto",
+    "shareDescription": "Comparte \"{{title}}\" con el mundo",
+    "linkCopied": "¡Enlace copiado!",
+    "linkCopiedDescription": "El enlace se copió al portapapeles",
+    "copyError": "No se pudo copiar el enlace",
+    "socialMessage": "¡Mira mi pixel art \"{{title}}\" en Tinti.art!",
+    "qrCode": "Código QR",
+    "comingSoon": "Próximamente",
+    "copy": "Copiar",
+    "shareOnSocial": "Compartir en redes sociales"
+  },
+  "explore": {
+    "title": "Explorar Proyectos",
+    "description": "Descubre increíbles creaciones de la comunidad",
+    "goBack": "Volver",
+    "offlineMode": "Modo Offline",
+    "popular": "Populares",
+    "recent": "Recientes",
+    "mostLiked": "Más Gustados",
+    "noProjects": "No hay proyectos disponibles",
+    "beFirst": "Sé el primero en compartir tu arte con la comunidad",
+    "locale": "es-ES"
+  },
+  "import": {
+    "tinFileError": "Por favor selecciona un archivo .tin válido",
+    "tinImported": "¡Archivo importado!",
+    "tinImportedDescription": "El proyecto \"{{title}}\" se importó correctamente",
+    "importError": "Error al importar",
+    "tinImportError": "No se pudo importar el archivo .tin",
+    "imageFileError": "Por favor selecciona un archivo de imagen válido",
+    "imageImported": "¡Imagen importada!",
+    "imageImportedDescription": "El proyecto \"{{title}}\" se creó desde la imagen",
+    "imageImportError": "No se pudo importar la imagen",
+    "saveInFolder": "Se guardará en",
+    "folder": "Carpeta",
+    "tinFile": "Archivo .tin",
+    "image": "Imagen",
+    "selectTinFile": "Seleccionar archivo .tin",
+    "tinFileDescription": "Importa un proyecto guardado previamente en formato .tin con todas sus capas, frames y configuraciones.",
+    "selectImage": "Seleccionar imagen",
+    "imageDescription": "Convierte una imagen PNG, JPG, GIF u otro formato en un proyecto de pixel art.",
+    "importing": "Importando..."
+  },
+  "reports": {
+    "button": "Reportar",
+    "modal": {
+      "title": "Reportar Proyecto",
+      "description": "¿Hay algo inapropiado en el proyecto \"{{projectTitle}}\"? Reporta este contenido a nuestro equipo de moderación."
+    },
+    "form": {
+      "type": "Tipo de reporte",
+      "selectType": "Selecciona un tipo",
+      "description": "Descripción (opcional)",
+      "descriptionPlaceholder": "Describe el problema con más detalle..."
+    },
+    "types": {
+      "inappropriate": "Contenido inapropiado",
+      "spam": "Spam o publicidad",
+      "duplicate": "Contenido duplicado",
+      "other": "Otro problema"
+    },
+    "submitting": "Enviando...",
+    "submit": "Enviar reporte",
+    "success": {
+      "title": "Reporte enviado",
+      "description": "Gracias por tu reporte. Nuestro equipo lo revisará pronto."
+    },
+    "error": {
+      "selectType": "Por favor selecciona un tipo de reporte",
+      "submit": "Error al enviar el reporte",
+      "tryAgain": "Inténtalo de nuevo más tarde"
+    }
+  },
+  "editor": {
+    "tools": {
+      "pencil": "Lápiz",
+      "eraser": "Borrador",
+      "bucket": "Relleno",
+      "eyedropper": "Cuentagotas",
+      "line": "Línea",
+      "rectangle": "Rectángulo",
+      "circle": "Círculo",
+      "ellipse": "Elipse",
+      "spray": "Spray",
+      "gradient": "Degradado",
+      "select": "Seleccionar",
+      "border-select": "Selección de Borde",
+      "magic-wand": "Varita Mágica",
+      "move": "Mover",
+      "rotate": "Rotar",
+      "scale": "Escalar",
+      "text": "Texto",
+      "noise": "Ruido",
+      "mirror": "Espejo",
+      "color-replace": "Reemplazo de Color"
+    },
+    "categories": {
+      "basic": "Básicas",
+      "shapes": "Formas",
+      "artistic": "Artísticas",
+      "selection": "Selección",
+      "advanced": "Avanzadas"
+    },
+    "panels": {
+      "tools": "Herramientas",
+      "colors": "Colores",
+      "colorPalette": "Paleta de Colores",
+      "layers": "Capas",
+      "frames": "Frames",
+      "animation": "Animación",
+      "settings": "Configuración",
+      "selection": "Selección",
+      "paletteEditor": "Editor de Paleta",
+      "canvasSettings": "Configuración del Canvas"
+    },
+    "panelContent": {
+      "selection": {
+        "pixelsSelected": "píxeles seleccionados",
+        "pixelsInClipboard": "píxeles en el portapapeles",
+        "size": "Tamaño: {{width}} × {{height}}",
+        "tolerance": "Tolerancia",
+        "showPreview": "Mostrar",
+        "hidePreview": "Ocultar",
+        "selectionPreview": "Preview de selección"
+      },
+      "colors": {
+        "currentColor": "Color Actual",
+        "colorPalette": "Paleta de Colores",
+        "showMore": "Mostrar más",
+        "showLess": "Mostrar menos",
+        "save": "Guardar",
+        "cancel": "Cancelar",
+        "editColor": "Editar color"
+      },
+      "layers": {
+        "layers": "Capas",
+        "newLayer": "Nueva",
+        "onionSkin": "Onion Skin",
+        "on": "On",
+        "off": "Off",
+        "opacity": "Opacidad: {{percentage}}%",
+        "opacityLabel": "Opacidad",
+        "pixelsCount": "{{count}} píxeles"
+      },
+      "frames": {
+        "framesAndDuration": "{{count}} frames • {{duration}}ms",
+        "export": "Exportar",
+        "fps": "FPS: {{value}}",
+        "addFrame": "Agregar Frame",
+        "duration": "Duración:"
+      },
+      "canvasSettings": {
+        "title": "Configuración del Lienzo",
+        "currentSize": "Tamaño actual",
+        "pixelSize": "{{width}} × {{height}} píxeles",
+        "presets": "Tamaños predefinidos",
+        "customSize": "Tamaño personalizado",
+        "width": "Ancho",
+        "height": "Alto",
+        "maintainAspect": "Mantener proporción",
+        "resizeMethod": "Método de redimensionado",
+        "pad": "Rellenar",
+        "crop": "Recortar",
+        "stretch": "Estirar",
+        "padDescription": "Añade píxeles transparentes",
+        "cropDescription": "Corta el contenido sobrante",
+        "stretchDescription": "Escala el contenido existente",
+        "applyChanges": "Aplicar Cambios",
+        "reset": "Reset",
+        "grid": "Grid"
+      },
+      "colorPalette": {
+        "currentColor": "Color Actual",
+        "currentPalette": "Paleta Actual",
+        "doubleTapToEdit": "Toca dos veces para editar",
+        "generatePalette": "Generar Paleta",
+        "extractFromProject": "Extraer del Proyecto",
+        "canvas": "Canvas",
+        "layers": "Capas",
+        "frames": "Frames",
+        "automaticPalettes": "Paletas Automáticas",
+        "monochromatic": "Monocromática",
+        "analogous": "Análoga",
+        "complementary": "Complementaria",
+        "triadic": "Triádica",
+        "random": "Aleatoria",
+        "paletteSize": "Tamaño de Paleta",
+        "adjustPalette": "Ajustar Paleta",
+        "hue": "Matiz",
+        "saturation": "Saturación",
+        "lightness": "Luminosidad",
+        "apply": "Aplicar",
+        "reset": "Reset"
+      }
+    },
+    "settings": {
+      "shapeSettings": "Configuración de Formas",
+      "gradientSettings": "Configuración de Degradado",
+      "textSettings": "Configuración de Texto",
+      "spraySettings": "Configuración de Spray",
+      "mirrorSettings": "Configuración de Espejo",
+      "brushSettings": "Configuración de Pincel",
+      "noiseSettings": "Configuración de Ruido",
+      "bucketSettings": "Configuración de Relleno",
+      "rotationSettings": "Configuración de Rotación",
+      "scaleSettings": "Configuración de Escala",
+      "moveSettings": "Configuración de Movimiento",
+      "colorReplaceSettings": "Reemplazo de Color",
+      "outline": "Contorno",
+      "filled": "Relleno",
+      "strokeWidth": "Grosor del borde",
+      "opacity": "Opacidad",
+      "startColor": "Color inicial",
+      "endColor": "Color final",
+      "gradientType": "Tipo de degradado",
+      "linear": "Lineal",
+      "radial": "Radial",
+      "text": "Texto",
+      "textPlaceholder": "Escribe tu texto...",
+      "fontSize": "Tamaño de fuente",
+      "density": "Densidad",
+      "radius": "Radio",
+      "symmetryAxis": "Eje de simetría",
+      "size": "Tamaño",
+      "operationMode": "Modo de operación",
+      "apply": "Aplicar",
+      "applyReplacement": "Aplicar Reemplazo"
+    },
+    "actions": {
+      "undo": "Deshacer",
+      "redo": "Rehacer",
+      "save": "Guardar",
+      "back": "Atrás",
+      "showGrid": "Mostrar rejilla",
+      "hideGrid": "Ocultar rejilla",
+      "showSelectionPreview": "Vista previa de selección",
+      "openPaletteEditor": "Abrir editor de paleta",
+      "zoomIn": "Acercar",
+      "zoomOut": "Alejar",
+      "resetZoom": "Restablecer zoom",
+      "toggleOnionSkin": "Papel cebolla",
+      "onionSkinOpacity": "Opacidad del papel cebolla",
+      "magicWandTolerance": "Tolerancia de varita mágica",
+      "exportAnimation": "Exportar animación"
+    },
+    "instructions": {
+      "rotationInstructions": "• Primero selecciona píxeles con la herramienta de selección\n• Haz clic y arrastra para rotar alrededor del centro\n• La rotación se aplica en tiempo real",
+      "scaleInstructions": "• Primero selecciona píxeles con la herramientas de selección\n• Haz clic cerca del centro y arrastra hacia afuera para agrandar\n• Arrastra hacia adentro para reducir\n• La escala se aplica desde el centro de la selección",
+      "moveInstructions": "• Primero selecciona píxeles con la herramienta de selección\n• Haz clic y arrastra para mover la selección\n• Los píxeles se mueven en tiempo real",
+      "paletteReplaceInstructions": "• Selecciona colores de la paleta actual\n• Elige nuevos colores de reemplazo\n• Se aplicará automáticamente a toda la imagen"
+    },
+    "loading": "Cargando editor...",
+    "onlineUsers": "Usuarios en línea",
+    "collaborating": "Colaborando",
+    "pixels": "píxeles",
+    "layers": {
+      "layer": "Capa",
+      "newLayer": "Nueva Capa",
+      "deleteLayer": "Eliminar Capa",
+      "duplicateLayer": "Duplicar Capa",
+      "toggleVisibility": "Alternar Visibilidad",
+      "opacity": "Opacidad",
+      "rename": "Renombrar"
+    },
+    "frames": {
+      "frame": "Frame",
+      "newFrame": "Nuevo Frame",
+      "deleteFrame": "Eliminar Frame",
+      "duplicateFrame": "Duplicar Frame",
+      "playAnimation": "Reproducir Animación",
+      "stopAnimation": "Detener Animación",
+      "fps": "FPS",
+      "duration": "Duración"
+    },
+    "palette": {
+      "addColor": "Agregar Color",
+      "removeColor": "Eliminar Color",
+      "extractFromCanvas": "Extraer del Canvas",
+      "extractFromLayers": "Extraer de Capas",
+      "extractFromFrames": "Extraer de Frames",
+      "randomColor": "Color Aleatorio"
+    }
+  },
+  "admin": {
+    "title": "Panel de Administración",
+    "panel": {
+      "title": "Moderación de Reportes"
+    },
+    "auth": {
+      "title": "Acceso Administrativo",
+      "description": "Ingresa las credenciales de administrador para acceder al panel de moderación",
+      "key": "Clave de administrador",
+      "secret": "Secreto de administrador",
+      "keyPlaceholder": "Ingresa la clave de administrador",
+      "secretPlaceholder": "Ingresa el secreto de administrador",
+      "login": "Acceder",
+      "logout": "Cerrar sesión",
+      "authenticating": "Autenticando...",
+      "success": "Acceso concedido",
+      "welcome": "Bienvenido al panel de administración",
+      "error": "Error de autenticación",
+      "invalidCredentials": "Credenciales inválidas"
+    },
+    "filters": {
+      "title": "Filtros",
+      "status": "Estado",
+      "type": "Tipo",
+      "all": "Todos"
+    },
+    "status": {
+      "pending": "Pendiente",
+      "reviewed": "Revisado",
+      "resolved": "Resuelto",
+      "dismissed": "Desestimado"
+    },
+    "reports": {
+      "title": "Reportes"
+    },
+    "table": {
+      "project": "Proyecto",
+      "type": "Tipo",
+      "status": "Estado",
+      "reporter": "Reportado por",
+      "date": "Fecha",
+      "actions": "Acciones"
+    },
+    "actions": {
+      "review": "Revisar",
+      "deleteProject": "Eliminar proyecto",
+      "dismiss": "Desestimar",
+      "resolve": "Resolver",
+      "confirmDelete": "Confirmar eliminación"
+    },
+    "dialog": {
+      "review": {
+        "title": "Revisar Reporte"
+      },
+      "deleteProject": {
+        "title": "Eliminar Proyecto"
+      },
+      "project": "Proyecto",
+      "type": "Tipo",
+      "reporter": "Reportado por",
+      "description": "Descripción",
+      "notes": "Notas administrativas",
+      "notesPlaceholder": "Agrega notas sobre tu decisión..."
+    },
+    "success": {
+      "reportUpdated": "Reporte actualizado",
+      "projectDeleted": "Proyecto eliminado",
+      "reportResolved": "El reporte ha sido resuelto"
+    },
+    "error": {
+      "fetchReports": "Error al cargar reportes",
+      "updateReport": "Error al actualizar reporte"
+    }
+  }
+}

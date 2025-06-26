@@ -1,0 +1,16 @@
+{
+  "languages": {
+    "es": {
+      "name": "Español",
+      "nativeName": "Español",
+      "flag": "🇪🇸"
+    },
+    "en": {
+      "name": "English",
+      "nativeName": "English", 
+      "flag": "🇺🇸"
+    }
+  },
+  "defaultLanguage": "es",
+  "availableLanguages": ["es", "en"]
+}
