@@ -57,6 +57,7 @@ CREATE TABLE collaborators (
     role VARCHAR(20) DEFAULT 'editor', -- 'owner', 'editor', 'viewer'
     invited_at TIMESTAMP DEFAULT NOW(),
     UNIQUE(project_id, user_id)
+    
 );
 
 -- Proyectos públicos con likes
