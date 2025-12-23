@@ -164,17 +164,11 @@ npm run build
 # Start production server
 npm run start
 
-# Start with Ably WebSocket server
-npm run start:with-ably
-
 # Run linter
 npm run lint
 
 # WebSocket server (local development)
 npm run ws
-
-# Ably WebSocket server
-npm run ably
 ```
 
 ### Project Structure
@@ -203,8 +197,7 @@ tinti/
 │   ├── icons/           # App icons
 │   └── lang/            # Language files
 ├── server/              # Backend servers
-│   ├── websocket.js     # Local WebSocket server
-│   └── ably-websocket.js # Ably WebSocket server
+│   └── websocket.js     # WebSocket server
 ├── scripts/             # Database scripts
 └── styles/              # Global styles
 ```
